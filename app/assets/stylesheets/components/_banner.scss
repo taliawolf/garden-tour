@@ -1,0 +1,39 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+
+.banner h1 {
+  color:white;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.take-a-tour-btn {
+  background-color: #87BAAB;
+  padding:16px;
+  color: white;
+  border-radius: 16px;
+}
+
+.take-a-tour-btn:hover {
+  color:white;
+  text-decoration: none;
+  // background-color: #528E7C;
+  font-weight: bold;
+}
+
+.button {
+  margin-top: 40px;
+  text-align:center;
+}
+
+.container-about {
+  margin: 60px 205px;
+  p {
+    text-align: center;
+   display: inline-block;
+  }
+}

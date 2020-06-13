@@ -1,0 +1,25 @@
+.quotes {
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.quote-section {
+  display:flex;
+  justify-content: space-around;
+}
+
+.quote-card {
+  width: 320px;
+  box-shadow: 4px 1px 16px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  border-radius: 8px;
+  img {
+    width: 280px;
+    border-radius: 8px;
+    height: 300px;
+  }
+  p {
+    margin: 0;
+  }
+}
