@@ -15,7 +15,7 @@
   background-color: #87BAAB;
   padding:16px;
   color: white;
-  border-radius: 16px;
+  border-radius: 8px;
 }
 
 .take-a-tour-btn:hover {
@@ -31,9 +31,20 @@
 }
 
 .container-about {
-  margin: 60px 205px;
+    margin: 60px 205px;
   p {
     text-align: center;
-   display: inline-block;
+    margin-left: 24px;
+    font-size: 16px;
+  }
+
+  img {
+    height: 200px;
+    float:left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 4px 1px 16px 4px rgba(0, 0, 0, 0.1);
+
   }
 }
