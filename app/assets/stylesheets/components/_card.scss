@@ -24,3 +24,29 @@
     margin: 0;
   }
 }
+
+.plant-cards {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  padding: 16px;
+  flex-grow: 1;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+}
+
+.plant-card {
+  position: relative;
+  padding: 8px;
+  margin: 16px 24px;
+  background-color: white;
+  box-shadow: 4px 1px 16px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  height: 304px;
+}

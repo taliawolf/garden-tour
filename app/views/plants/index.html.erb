@@ -1,0 +1,13 @@
+<!-- carousel images -->
+<div class = 'carousel-styling'>
+    <%#= render 'index_carousel'%>
+</div>
+<div class="container">
+  <div class="plant-cards">
+    <% @plants.each do |plant| %>
+      <div class="plant-card">
+        <div class="card-img" style= "background-image:url('<%= cl_image_path plant.photo.key, height: 300, width: 400, crop: :fill %>')"></div>
+      </div>
+    <% end %>
+  </div>
+</div>
